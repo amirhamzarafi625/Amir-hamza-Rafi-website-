@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amir Hamza Rafi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        section {
+            padding: 30px;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amir Hamza Rafi 👋</h1>
+    <p>Welcome to my personal website</p>
+</header>
+
+<section class="card">
+    <h2>About Me</h2>
+    <p>I am Amir Hamza Rafi, a 24-year-old from Bangladesh, currently living in Portugal.</p>
+    <p>I have knowledge and experience in freelancing, hospitality, supermarkets, and interior designing.</p>
+</section>
+
+<section class="card">
+    <h2>Contact</h2>
+    <p>Email: amirhamzarafi625@gmail.com</p>
+</section>
+
+<section class="card">
+    <h2>Connect With Me</h2>
+    <p><a href="https://www.facebook.com/share/1E86qGKCgy/?mibextid=wwXIfr" target="_blank">Facebook</a></p>
+    <p><a href="https://www.instagram.com/amir_hamza_625" target="_blank">Instagram</a></p>
+    <p><a href="https://www.linkedin.com/in/amir-hamza-rafi-b7191828a" target="_blank">LinkedIn</a></p>
+</section>
+
+</body>
+</html>
