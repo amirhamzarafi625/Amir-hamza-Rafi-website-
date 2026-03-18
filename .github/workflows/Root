@@ -1,0 +1,3 @@
+git add .
+git commit -m "Finalize website for deployment"
+git push origin main
