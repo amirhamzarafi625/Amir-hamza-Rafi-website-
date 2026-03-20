@@ -1,93 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ✅ IMPORTANT for mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> >
+<title>Amir Hamza Rafi | Portfolio</title>
 
-    <title>Amir Hamza Rafi | Personal Website</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #1e3c72, #2a5298);
-            color: white;
-            text-align: center;
-        }
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #020617;
+}
 
-        header {
-            padding: 50px 20px;
-        }
+nav h2 {
+    margin: 0;
+}
 
-        h1 {
-            font-size: 40px;
-        }
+nav a {
+    color: #38bdf8;
+    margin-left: 15px;
+    text-decoration: none;
+}
 
-        section {
-            padding: 30px;
-        }
+/* HERO */
+.hero {
+    padding: 80px 20px;
+}
 
-        .card {
-            background: rgba(255,255,255,0.1);
-            margin: 20px auto;
-            padding: 20px;
-            width: 80%;
-            border-radius: 10px;
-        }
+.hero h1 {
+    font-size: 48px;
+}
 
-        a {
-            color: #00ffcc;
-            text-decoration: none;
-        }
+.hero span {
+    color: #38bdf8;
+}
 
-        /* ✅ MOBILE RESPONSIVE PART */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 28px;
-            }
+/* SECTION */
+section {
+    padding: 50px 20px;
+}
 
-            .card {
-                width: 95%;
-                padding: 15px;
-            }
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
 
-            section {
-                padding: 15px;
-            }
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
 
-            header {
-                padding: 30px 10px;
-            }
-        }
-    </style>
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 30px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+</style>
 </head>
 
 <body>
 
-<header>
-    <h1>Amir Hamza Rafi 👋</h1>
-    <p>Welcome to my personal website</p>
-</header>
+<!-- NAVBAR -->
+<nav>
+    <h2>Amir</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-<section class="card">
-    <h2>About Me</h2>
-    <p>I am Amir Hamza Rafi, a 24-year-old from Bangladesh, currently living in Portugal.</p>
-    <p>I have knowledge and experience in freelancing, hospitality, supermarkets, and interior designing.</p>
+<!-- HERO -->
+<div class="hero">
+    <h1>Hi, I'm <span>Amir Hamza Rafi</span> 👋</h1>
+    <p>Freelancer | Interior Designer | Hospitality Experience</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am Amir Hamza Rafi, from Bangladesh, currently living in Portugal.</p>
+        <p>I have experience in freelancing, hospitality, supermarkets, and interior designing.</p>
+    </div>
 </section>
 
-<section class="card">
-    <h2>Contact</h2>
-    <p>Email: amirhamzarafi625@gmail.com</p>
+<!-- SKILLS -->
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <p>✔ Freelancing</p>
+        <p>✔ Interior Design</p>
+        <p>✔ Customer Service</p>
+        <p>✔ Communication</p>
+    </div>
 </section>
 
-<section class="card">
-    <h2>Connect With Me</h2>
-    <p><a href="https://www.facebook.com/share/1E86qGKCgy/?mibextid=wwXIfr" target="_blank">Facebook</a></p>
-    <p><a href="https://www.instagram.com/amir_hamza_625" target="_blank">Instagram</a></p>
-    <p><a href="https://www.linkedin.com/in/amir-hamza-rafi-b7191828a" target="_blank">LinkedIn</a></p>
+<!-- CONTACT -->
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: amirhamzarafi625@gmail.com</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+    </div>
 </section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Amir Hamza Rafi</p>
+</footer>
 
 </body>
 </html>
